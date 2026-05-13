@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VIP Barber Shop</title>
+<script>
+  sessionStorage.redirect = location.pathname + location.search + location.hash;
+  var base = location.pathname.replace(/\/404\.html$/, "");
+  if (!base) base = "";
+  location.href = base || "/";
+</script>
+</head>
+<body></body>
+</html>
